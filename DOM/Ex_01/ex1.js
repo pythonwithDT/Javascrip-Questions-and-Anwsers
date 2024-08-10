@@ -5,3 +5,6 @@
 
 const buttonElement = document.querySelector('button')
 console.log(buttonElement);
+
+
+console.log(document.querySelector('button'));

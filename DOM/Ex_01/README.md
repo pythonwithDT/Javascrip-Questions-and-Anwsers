@@ -32,5 +32,10 @@ console.log(buttonElement);
    - The line `console.log(buttonElement);` prints the selected button element to the console.
    - This allows you to see the button element in your browser's developer tools console, which is helpful for debugging or understanding how the element is represented in the DOM (Document Object Model).
 
+4. **Directly Log the Button:**
+
+   - The additional line console.log(document.querySelector('button')); performs the same action as before, but this     time, it directly logs the selected button element to the console without storing it in a variable first.
+   - This demonstrates that you can use document.querySelector('button') directly within console.log() to achieve the same result.
+
 **Result:**
 When you run this code in a browser with the button present in the HTML, you will see the `<button>Hello</button>` element displayed in the console.
