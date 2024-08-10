@@ -1,5 +1,5 @@
 
-### Explanation of the Code
+# Explanation of the Code
 
 The following code demonstrates how to create a button element in HTML and then access it using JavaScript to display it in the console.
 
@@ -17,9 +17,9 @@ console.log(buttonElement);
 
 1. **Create a Button in HTML:**
    - First, in your HTML file, you need to create a button element:
-    ```html
+    ``html
    <button>Hello</button>
-   ```
+   ``
 
    - This button will appear on your webpage with the text "Hello" inside it.
 
