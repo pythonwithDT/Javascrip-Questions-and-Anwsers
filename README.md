@@ -1,5 +1,4 @@
 
-
 # JavaScript Course - Exercise Solutions
 
 This repository contains my solutions to the JavaScript exercises from the [SuperSimple.dev](https://github.com/supersimpledev/javascript-course) course. I forked the original repository and am actively working through the problems to strengthen my JavaScript skills.
@@ -50,6 +49,3 @@ To run the solutions locally, follow these steps:
 ## License
 
 This project is licensed under the MIT License. See the [LICENSE](./LICENSE) file for more details.
-
----
-
