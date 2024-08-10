@@ -1,18 +1,6 @@
 
 # Explanation of the Code
 
-The following code demonstrates how to create a button element in HTML and then access it using JavaScript to display it in the console.
-
-```javascript
-// Create a <button>Hello</button>. Use document.querySelector('button') to get the button from 
-// the page, and then display it in the console. 
-
-// Solution 
-
-const buttonElement = document.querySelector('button')
-console.log(buttonElement);
-```
-
 **Step-by-Step Breakdown:**
 
 1. **Create a Button in HTML:**
