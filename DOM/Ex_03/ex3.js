@@ -6,6 +6,21 @@
 // Solution 
 
 
+let result = ''
+
+function headtail(choice) {
+    if (choice === 'Heads') {
+        result = 'You chose heads';
+    } else if (choice === 'Tails') {
+        result = 'You chose tails';
+    } else {
+        console.log('Invalid choice');
+    }
+
+    document.querySelector('.js-outcomes').innerHTML = `${result}`;
+}
+
+
 
 // function headtail (buttonElement) {
 //     const buttonText = buttonElement.innerText;
@@ -21,21 +36,6 @@
 //     }
         
 // }
-
-let result = ''
-
-function headtail(choice) {
-    if (choice === 'Heads') {
-        result = 'You chose heads';
-    } else if (choice === 'Tails') {
-        result = 'You chose tails';
-    } else {
-        console.log('Invalid choice');
-    }
-
-    document.querySelector('.js-outcomes').innerHTML = `${result}`;
-}
-
 
     
 
