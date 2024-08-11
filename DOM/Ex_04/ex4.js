@@ -5,3 +5,15 @@
 
 // Solution 
 
+
+
+ let input = document.value
+
+// console.log(document.querySelector('.input-text'));
+
+function inputText () {
+    const inputext = document.querySelector('.input-text')
+   
+
+   
+};
