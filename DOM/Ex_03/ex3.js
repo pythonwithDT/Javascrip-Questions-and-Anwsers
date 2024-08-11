@@ -7,16 +7,27 @@
 
 
 
-function headtail () {
-    const buttonElement = document.querySelector('button')
-    const buttonText = buttonElement.innerText;
+// function headtail (buttonElement) {
+//     const buttonText = buttonElement.innerText;
 
-    // let result = '';
+//     // let result = '';
 
-    if (buttonText === 'Heads') {
-        console.log('You  chose heads')
-    } else if (buttonText === 'Tails') {
-        console.log('You chose Tails')
-    }
+//     if (buttonText === 'Heads') {
+//         console.log('You  chose heads')
+//     } else if (buttonText === 'Tails') {
+//         console.log('You chose Tails')
+//     } else {
+//         console.log('Invalid Choice')
+//     }
         
+// }
+
+function headtail(choice) {
+    if (choice === 'Heads') {
+        console.log('You chose heads');
+    } else if (choice === 'Tails') {
+        console.log('You chose tails');
+    } else {
+        console.log('Invalid choice');
+    }
 }
