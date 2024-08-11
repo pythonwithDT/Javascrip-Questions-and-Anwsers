@@ -4,3 +4,19 @@
 
 
 // Solution 
+
+
+
+function headtail () {
+    const buttonElement = document.querySelector('button')
+    const buttonText = buttonElement.innerText;
+
+    // let result = '';
+
+    if (buttonText === 'Heads') {
+        console.log('You  chose heads')
+    } else if (buttonText === 'Tails') {
+        console.log('You chose Tails')
+    }
+        
+}
