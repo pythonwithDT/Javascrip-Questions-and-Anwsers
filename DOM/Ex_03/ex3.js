@@ -22,12 +22,20 @@
         
 // }
 
+let result = ''
+
 function headtail(choice) {
     if (choice === 'Heads') {
-        console.log('You chose heads');
+        result = 'You chose heads';
     } else if (choice === 'Tails') {
-        console.log('You chose tails');
+        result = 'You chose tails';
     } else {
         console.log('Invalid choice');
     }
+
+    document.querySelector('.js-outcomes').innerHTML = `${result}`;
 }
+
+
+    
+
