@@ -13,7 +13,7 @@
 
 
 
-function inputText (input) {
+function inputText () {
     const text = document.querySelector('.input-text').value;
     
     let reveal = '';
