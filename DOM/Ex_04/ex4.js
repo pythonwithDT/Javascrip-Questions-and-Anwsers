@@ -6,13 +6,6 @@
 // Solution 
 
 
-
-//  let input = document.value
-
-// console.log(document.querySelector('.input-text'));
-
-
-
 function inputText () {
     const text = document.querySelector('.input-text').value;
     
