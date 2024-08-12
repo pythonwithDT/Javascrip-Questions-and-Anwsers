@@ -2,7 +2,6 @@
 //'Your name is: ${text};' on the page (${text} = the text inside the box) (hint: use.value
 // to get the text inside an <input>).
 
-
 // Solution 
 
 
