@@ -12,12 +12,13 @@
 // console.log(document.querySelector('.input-text'));
 
 function inputText () {
-    text = document.querySelector('.input-text').value;
+    const text = document.querySelector('.input-text').value;
+    let reveal = '';
 
     if (inputText = text) {
         reveal = `Your name is: ${text}`;
     } else  {
-        console.log('No input')
+        reveal = `No input provided`;
     };
    
   document.querySelector('.text-reveal').innerHTML = reveal;
