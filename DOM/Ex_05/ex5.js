@@ -4,7 +4,11 @@
 
 // Solution 
 
-
+function handleInputdown (event) {
+    if (event.key === 'Enter') {
+        inputText()
+    }
+}
 
 function inputText () {
     const text = document.querySelector('.input-text').value;
