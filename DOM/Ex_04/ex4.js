@@ -7,12 +7,16 @@
 
 
 
- let input = document.value
+//  let input = document.value
 
 // console.log(document.querySelector('.input-text'));
 
 function inputText () {
-    const inputext = document.querySelector('.input-text')
+    value = document.querySelector('.input-text').value
+
+    if (inputText = value) {
+        console.log(`Your name is: ${value}`)
+    };
    
 
    
