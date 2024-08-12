@@ -11,11 +11,14 @@
 
 // console.log(document.querySelector('.input-text'));
 
-function inputText () {
+
+
+function inputText (input) {
     const text = document.querySelector('.input-text').value;
+    
     let reveal = '';
 
-    if (inputText = text) {
+    if (text) {
         reveal = `Your name is: ${text}`;
     } else  {
         reveal = `No input provided`;
