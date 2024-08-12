@@ -14,7 +14,7 @@ This code builds on the previous example by allowing the user to submit the text
 **Step-by-Step Breakdown:**
 
 1. **HTML Input and Button:**
-   - An `<input>` element is created with a placeholder text "name" and a class `input-text`. 
+   - An `<input>` element is created with a placeholder text "name" and a class `input-text`.
    - The `onkeydown` attribute is added to the input element, which calls the `handleInputdown` function when a key is pressed.
    - A button labeled "Submit" is placed next to the input box. When clicked, it triggers the `inputText` function.
    - A paragraph (`<p>`) with the class `text-reveal` is included below the button to display the output.
@@ -64,4 +64,3 @@ function inputText() {
 
 **Result:**
 When you enter a name in the input box and press "Enter" or click "Submit," the paragraph will display "Your name is: [name]". If no name is entered, it will display "No input provided".
-
