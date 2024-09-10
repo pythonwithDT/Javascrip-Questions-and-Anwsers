@@ -8,11 +8,3 @@ let calculation = "";
 
 
 
-// when we click the '1' button:
-// - add the string '1' to the "calculation" variable: calucation += '1';
-// - display the calculation in the console: console.log(calculation);
-
-document.querySelector('.js-button1').addEventListener('click', () => {
-    calculation += '1';
-    console.log(calculation);
-})
