@@ -6,7 +6,8 @@
 
 // Solution
 
-document.querySelector('.js-button1').addEventListener('click', () => { //     alert('Added');
+document.querySelector('.js-button1').addEventListener('click', () => { // K
+    alert('Added');
 });
 
 document.querySelector('.js-button2').addEventListener('click', () => {
