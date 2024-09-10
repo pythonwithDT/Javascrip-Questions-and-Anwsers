@@ -15,3 +15,27 @@ document.querySelector('.js-button1').addEventListener('click', () => {
     calculation += '1';
     console.log(calculation);
 });
+
+
+// do the same for the '2', '3' and '+' buttons(add ' + ' instaead of '+')
+
+
+document.querySelector('.js-button2').addEventListener('click', () => {
+    calculation += '2';
+    console.log(calculation);
+});
+
+document.querySelector('.js-button3').addEventListener('click', () => {
+    calculation += '3';
+    console.log(calculation);
+});
+
+document.querySelector('.js-button4').addEventListener('click', () => {
+    calculation += ' + ';
+    console.log(calculation);
+});
+
+
+
+
+
