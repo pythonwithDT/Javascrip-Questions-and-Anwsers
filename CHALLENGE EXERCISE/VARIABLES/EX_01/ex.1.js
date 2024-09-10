@@ -35,7 +35,15 @@ document.querySelector('.js-button4').addEventListener('click', () => {
     console.log(calculation);
 });
 
+// When we click the '=' button, use the code:eval(calculation); (eval(..) converts
+// the calculation string into actual math)
+// - save the result back in the "calculation": calculation = eval(calculation);
+// - display the result in the console: console.log(calculation);
 
+document.querySelector('.js-button5').addEventListener('click', () => {
+    calculation = eval(calculation);
+    console.log(calculation);
+});
 
 
 
