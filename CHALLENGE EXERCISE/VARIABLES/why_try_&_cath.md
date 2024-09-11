@@ -1,14 +1,13 @@
-Great question! Let’s break down why we use `try` and `catch` in addition to `if` and `else`:
 
-### What `try` and `catch` Do
+# What `try` and `catch` Do
 
 - **`try` Block**: This part of the code is where you attempt to do something that might fail. For instance, in our calculator, it’s where we try to evaluate the math expression.
 - **`catch` Block**: If something goes wrong inside the `try` block, the code in the `catch` block is executed. This is where you handle any errors that occurred.
 
-### Why Use `try` and `catch`?
+## Why Use `try` and `catch`?
 
 1. **Error Handling**:
-   - When evaluating a math expression with `eval`, there's a chance that the input might be incorrect or could cause an error (like `1 / 0` or `1 + `).
+   - When evaluating a math expression with `eval`, there's a chance that the input might be incorrect or could cause an error (like `1 / 0` or ` 1 + `).
    - `try` and `catch` allow the program to handle these errors gracefully. If you don’t use them, your program might crash or stop working when it encounters an error.
 
 2. **Prevent Crashes**:
@@ -20,6 +19,7 @@ Great question! Let’s break down why we use `try` and `catch` in addition to `
 ### Comparison with `if` and `else`
 
 `if` and `else` are used for making decisions based on conditions. For example:
+
 ```javascript
 if (buttonValue === '=') {
     // Handle calculation
@@ -27,6 +27,7 @@ if (buttonValue === '=') {
     // Handle other button presses
 }
 ```
+
 - This part of the code checks whether the user pressed the "=" button and decides what to do based on that.
 
 ### Why They Work Together
