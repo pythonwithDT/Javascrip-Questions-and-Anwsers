@@ -25,3 +25,7 @@ function handleButtonClick(event) {
 document.querySelectorAll('.js-button').forEach(button => {
     button.addEventListener('click', handleButtonClick);
 });
+
+document.querySelector('.C').addEventListener('click', () => {
+    calculation = "";
+})
