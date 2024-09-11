@@ -35,6 +35,73 @@ document.querySelector('.js-button4').addEventListener('click', () => {
     console.log(calculation);
 });
 
+document.querySelector('.js-button5').addEventListener('click', () => {
+    calculation += '4'
+    console.log(calculation);
+});
+
+document.querySelector('.js-button6').addEventListener('click', () => {
+    calculation += '5'
+    console.log(calculation);
+});
+
+document.querySelector('.js-button7').addEventListener('click', () => {
+    calculation += '6'
+    console.log(calculation);
+});
+
+document.querySelector('.js-button8').addEventListener('click', () => {
+    calculation += ' - '
+    console.log(calculation);
+});
+
+document.querySelector('.js-button9').addEventListener('click', () => {
+    calculation += '7'
+    console.log(calculation);
+});
+
+document.querySelector('.js-button10').addEventListener('click', () => {
+    calculation += '8'
+    console.log(calculation);
+});
+
+
+document.querySelector('.js-button11').addEventListener('click', () => {
+    calculation += '9'
+    console.log(calculation);
+});
+
+document.querySelector('.js-button12').addEventListener('click', () => {
+    calculation += ' * '
+    console.log(calculation);
+});
+
+document.querySelector('.js-button13').addEventListener('click', () => {
+    calculation += '0'
+    console.log(calculation);
+});
+
+document.querySelector('.js-button14').addEventListener('click', () => {
+    calculation += '.'
+    console.log(calculation);
+});
+
+document.querySelector('.js-button15').addEventListener('click', () => {
+    calculation += '='
+    console.log(calculation);
+});
+
+document.querySelector('.js-button16').addEventListener('click', () => {
+    calculation += ' / '
+    console.log(calculation);
+});
+
+document.querySelector('.js-button9').addEventListener('click', () => {
+    calculation += '7'
+    console.log(calculation);
+});
+
+
 // When we click the '=' button, use the code:eval(calculation); (eval(..) converts
 // the calculation string into actual math)
 // - save the result back in the "calculation": calculation = eval(calculation);
