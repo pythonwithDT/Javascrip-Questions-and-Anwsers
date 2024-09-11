@@ -86,10 +86,10 @@ document.querySelector('.js-button14').addEventListener('click', () => {
     console.log(calculation);
 });
 
-document.querySelector('.js-button15').addEventListener('click', () => {
-    calculation += '='
-    console.log(calculation);
-});
+// document.querySelector('.js-button15').addEventListener('click', () => {
+//     calculation += '='
+//     console.log(calculation);
+// });
 
 document.querySelector('.js-button16').addEventListener('click', () => {
     calculation += ' / '
@@ -107,7 +107,7 @@ document.querySelector('.js-button9').addEventListener('click', () => {
 // - save the result back in the "calculation": calculation = eval(calculation);
 // - display the result in the console: console.log(calculation);
 
-document.querySelector('.js-button5').addEventListener('click', () => {
+document.querySelector('.js-button15').addEventListener('click', () => {
     calculation = eval(calculation);
     console.log(calculation);
 });
