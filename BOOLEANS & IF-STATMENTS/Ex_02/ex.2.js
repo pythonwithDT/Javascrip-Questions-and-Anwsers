@@ -6,11 +6,24 @@
 
 // Solution
 
-const Number = Math.random()
+// const Number = Math.random()
 
-if ( number => 0.5) {
-    console.log('heads')
+// if ( Number => 0.5) {
+//     console.log('heads')
+// } else {
+//     console.log('tail')
+// }
+
+
+// instead of dsiplaying 'headss or 'tails' in the console, svae the result in a variable called 'result'
+
+const Number = Math.random();
+
+let result;
+
+if ( Number < 0.5) {
+    result = 'heads'
 } else {
-    console.log('tail')
+    result = 'tails'
 }
-
+console.log(result)
