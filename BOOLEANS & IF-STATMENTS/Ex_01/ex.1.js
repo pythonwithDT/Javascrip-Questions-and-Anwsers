@@ -33,3 +33,4 @@ if (hour <= 6 && hour <= 12) {
 } else {
     console.log(`Good night ${name}`)
 }
+
