@@ -6,13 +6,30 @@
 
 // Solutions
 
+// const hour = 20
+
+// if (hour <= 6 && hour <= 12) {
+//     console.log('Good morning')
+// } else if (hour <= 13 && 17 ) {
+//     console.log('Good afternoon')
+// } else {
+//     console.log('Good night')
+// }
+
+// Continuing, create a variable called "name" and save your name inside(as a string).
+// Udate the ifstatement to display your name in each message. For example; "Good morning${name}"
+
+
+ 
+
 const hour = 20
 
-if (hour <= 6 && hour <= 12) {
-    console.log('Good morning')
-} else if (hour <= 13 && 17 ) {
-    console.log('Good afternoon')
-} else {
-    console.log('Good night')
-}
+const name = 'EMMANUEL'
 
+if (hour <= 6 && hour <= 12) {
+    console.log(`Good morning ${name}`)
+} else if (hour <= 13 && 17 ) {
+    console.log(`Good afternoon ${name}`)
+} else {
+    console.log(`Good night ${name}`)
+}
