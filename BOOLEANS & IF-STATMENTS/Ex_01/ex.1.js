@@ -6,7 +6,7 @@
 
 // Solutions
 
-const hour = 3
+const hour = 20
 
 if (hour <= 6 && hour <= 12) {
     console.log('Good morning')
@@ -15,3 +15,4 @@ if (hour <= 6 && hour <= 12) {
 } else {
     console.log('Good night')
 }
+
